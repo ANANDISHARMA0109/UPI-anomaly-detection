@@ -18,7 +18,8 @@ from detect import detect_anomaly, profile_user
 #from model.detect import detect_anomaly, profile_user
 
 # Load historical data
-df = pd.read_csv("data/simulated_upi_transactions.csv")  # ya jo bhi tera data source hai
+csv_path = os.path.join(os.path.dirname(__file__), "data", "simulated_upi_transactions.csv")
+df = pd.read_csv(csv_path) 
 
 st.title("🔍 UPI Fraud Detection - Real Time")
 
