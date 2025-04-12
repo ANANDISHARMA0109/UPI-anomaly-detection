@@ -7,7 +7,7 @@ Key features of the project include:
 
 1. Behavioral Profiling: Tracks typical transaction patterns (e.g., amount, hour) to understand what is "normal" for a user.
 
-2.Anomaly Detection: Flags transactions that deviate significantly from the normal behavior based on calculated Z-scores.
+2. Anomaly Detection: Flags transactions that deviate significantly from the normal behavior based on calculated Z-scores.
 
 3. Real-Time Alerts: Notifies users of suspicious activity when the Z-scores of a transaction are beyond a certain threshold.
 
