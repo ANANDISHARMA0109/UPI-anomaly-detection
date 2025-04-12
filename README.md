@@ -1,4 +1,4 @@
-UPI Fraud Detection with Behavioral Profiling
+#UPI Fraud Detection with Behavioral Profiling
 This project simulates a UPI transaction dashboard to detect potential fraudulent activities. The system uses behavioral profiling and anomaly detection techniques to identify unusual patterns in user transactions. It compares the current transaction behavior with the user’s historical transaction patterns to calculate Z-scores for key features like amount and hour.
 
 Key features of the project include:
